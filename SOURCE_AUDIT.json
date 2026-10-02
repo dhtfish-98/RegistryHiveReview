@@ -1,0 +1,106 @@
+{
+  "repository": "williballenthin/python-registry",
+  "commit": "e649a288b8c62e341eee4a6b95a1337a41c1c163",
+  "selected_full_files": [
+    {
+      "path": "Registry/Registry.py",
+      "bytes": 13980,
+      "lines": 463,
+      "sha256": "2e16a4ca9de79778708a0fc32168682944f852f4f585e4ad617fd0eb5699270c",
+      "git_blob": "359420b6eb4dde4d4cd31ef80d1e0b8a1f21b465",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "Registry/RegistryParse.py",
+      "bytes": 68764,
+      "lines": 1972,
+      "sha256": "1c2698a98ca2523d8d559e4b8ca8c13868fe78072be168fd0e8b88d3b2091c90",
+      "git_blob": "f7f2a9a6c7ab8ce82f433919b2af0a776d4c798e",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "Registry/SettingsParse.py",
+      "bytes": 8334,
+      "lines": 169,
+      "sha256": "c1a9445c6f41f71ad463e38779dc853fee59573f0d5e5214fd7a6bca7fcf425f",
+      "git_blob": "d72703ebe8470008255406bffd8ae5eaada9c011",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "Registry/__init__.py",
+      "bytes": 855,
+      "lines": 25,
+      "sha256": "af1578ba87db518d18d4255dfc019579e0b145149585c1242b9a4820d731b9fa",
+      "git_blob": "6eeb0926a79ac81817c06d0746cf2351622a6cdb",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "Registry/RegistryLog.py",
+      "bytes": 7975,
+      "lines": 203,
+      "sha256": "ff61cf4765260fe771aa9d2f05eff3c67db02c22cc0870557690a94c981b945c",
+      "git_blob": "a77cbc061b1d25c1dbbf7e71feb34dfc832675b4",
+      "full_read": true,
+      "scope": "reviewed but not implemented: recovery/write entry"
+    },
+    {
+      "path": "setup.py",
+      "bytes": 708,
+      "lines": 20,
+      "sha256": "bdb345cfa88e982064b0028f168f817ec5f96552a084b6f07be2ea0c7f40c62b",
+      "git_blob": "89d08ae13d58a5e92754c3f67b0b8bd997947b8f",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "README.MD",
+      "bytes": 3333,
+      "lines": 102,
+      "sha256": "4e407ae8baf45affba043619d735a9a7f6d65981c2daf61a5789718c433c4a35",
+      "git_blob": "c773deffd85d8de8f1762a8f4b1f46c59902ad49",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "LICENSE.TXT",
+      "bytes": 11358,
+      "lines": 202,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "samples/test_dump.py",
+      "bytes": 2409,
+      "lines": 101,
+      "sha256": "32f421691ebe23f94472cd9eb693efdeeab2dfd92abb50972825a1d14600aae3",
+      "git_blob": "0fa0940d8510bc03457a54218e3b6385dbe59c9b",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "samples/timeline.py",
+      "bytes": 1806,
+      "lines": 59,
+      "sha256": "8f25e8eece77871f9b836553d155d2335804bd7e17375b6a23e231713f069b61",
+      "git_blob": "ac2abc6d0413fb3dc3f657d374c5f4641fcbb947",
+      "full_read": true,
+      "scope": "selected entry/closure, source reference or attribution"
+    },
+    {
+      "path": "testing/TransactionLogFiles.py",
+      "bytes": 4016,
+      "lines": 129,
+      "sha256": "a02f0d3510e8801308718f72af8e16cd7cdb5e0c71c99889a26167121a2d0574",
+      "git_blob": "9f523ba8eb264a1ae1993d8a3b3c457c6c9f834a",
+      "full_read": true,
+      "scope": "reviewed but not implemented: recovery/write entry"
+    }
+  ],
+  "excluded": "Other sample programs, transactions/recovery, credential/system hives, AppContainer composite types, live Windows APIs. Core module full read does not claim a full-repository audit."
+}

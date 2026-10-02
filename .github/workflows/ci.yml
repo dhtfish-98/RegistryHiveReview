@@ -1,0 +1,36 @@
+name: registry-hive-review
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.11', '3.14']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Source tests and complete build
+        run: |
+          python -m pip install -r requirements-dev.txt
+          PYTHONPATH=src python -m unittest discover -s tests -v
+          ruff check src tests scripts
+          ruff format --check src tests scripts
+          python -m build --no-isolation
+      - name: Independent offline consumer tests and CLI
+        run: |
+          python -m venv .install-check
+          .install-check/bin/python -m pip install --no-index --no-deps dist/registry_hive_review-0.1.0-py3-none-any.whl
+          .install-check/bin/python -m pip check
+          install_python="$PWD/.install-check/bin/python"
+          repo_root="$PWD"
+          cd "$RUNNER_TEMP"
+          "$install_python" -I -m unittest discover -s "$repo_root/tests" -v
+          "$install_python" -I "$repo_root/scripts/installed_cli_check.py"
+          installed_dir=$("$install_python" -I -c 'import pathlib,registry_hive_review; print(pathlib.Path(registry_hive_review.__file__).parent.parent)')
+          "$install_python" -I "$repo_root/scripts/verify_package.py" "$repo_root" --installed "$installed_dir"

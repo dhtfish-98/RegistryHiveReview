@@ -1,0 +1,17 @@
+RegistryHiveReview is a new AI-assisted implementation, copyright 2026 contributors,
+licensed under Apache-2.0. The implementation does not import or ship python-registry.
+
+Design reference: williballenthin/python-registry at
+ e649a288b8c62e341eee4a6b95a1337a41c1c163.
+Selected upstream source notices are preserved for attribution:
+Copyright 2011 Will Ballenthin <william.ballenthin@mandiant.com>
+                    while at Mandiant <http://www.mandiant.com>
+Copyright 2011, 2012 Willi Ballenthin <william.ballenthin@mandiant.com>
+                    while at Mandiant <http://www.mandiant.com>
+The full original Apache-2.0 license is retained unchanged in LICENSE and
+licenses/python-registry-Apache-2.0.txt. No upstream NOTICE file was present.
+
+SettingsParse.py carries a separate MIT notice:
+Copyright (c) 2019 Yogesh Khatri <yogesh@swiftforensics.com>
+The complete notice is preserved in licenses/SettingsParse-MIT.txt.
+AppContainer settings decoding is outside the new implementation scope.

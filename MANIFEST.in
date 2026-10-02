@@ -1,0 +1,12 @@
+include README.md ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_AUDIT.json NOTICE LICENSE requirements-dev.txt
+recursive-include licenses *.txt
+recursive-include src *.py py.typed
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include .github *.yml
+global-exclude *.pyc *.pyo
+prune validation-local
+prune dist
+prune build
+prune .git
+prune .ruff_cache
