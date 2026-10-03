@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "registry-hive-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded offline primary Registry hive and explicit persistence-value evidence"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
-authors = [{name = "RegistryHiveReview contributors"}]
+authors = [{name = "dhtfish98"}]
 dependencies = []
 
 [project.scripts]

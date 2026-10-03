@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "project": "RegistryHiveReview",
+  "version": "0.1.1",
+  "implementation_author": "dhtfish98",
+  "self_excluded_to_avoid_recursive_hash": true,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "0859da9d60541d12dab2c8440b49d0fe8b34a3e95ea4b0a8067f3fd7dadcff7f",
+      "bytes": 1598
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "18d2a340ca81ebe5c6581482c4e7fe77f7e9dec26c5f20af826127ce1efa1788",
+      "bytes": 95
+    },
+    {
+      "path": "ATTRIBUTION_UPDATE.json",
+      "sha256": "519db1b4554f3dc573a3bad8c31272a44a4cf5f9937ed0b5b795cf6f53638390",
+      "bytes": 937
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "e2164f47e59e195ede002452e06a8ed90668bd6f076c9087e7b66747c0e9129d",
+      "bytes": 4681
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "e8692eb8c8007ab7a085e95d2cc8921c2f41721d91cd4099ffa74e95078fe88e",
+      "bytes": 432
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "15b6ebdc48ca579a28d0c9f121e294a2431f59b0995920d9fc814a0c155127cb",
+      "bytes": 985
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "26072386c9824d28b73dece3d4414ca2f02671ffab3036c702356960b3e16395",
+      "bytes": 2153
+    },
+    {
+      "path": "README.md",
+      "sha256": "eef0709d7f6996fdb081197f2b515527f4747a69be577701f4837e439844ce78",
+      "bytes": 4315
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "296256132a445b3cecf941eecee2f51952b1f80bd4cfe2b10018183216ed4333",
+      "bytes": 4015
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "5e293e1ad032148419339c7733013b1e93b923609555d17471adb8245f2a0449",
+      "bytes": 5112
+    },
+    {
+      "path": "licenses/SettingsParse-MIT.txt",
+      "sha256": "aee9726e3e1f99cad659c6216c0e8eaf466a837f925f78d682d8ed9929bef8e8",
+      "bytes": 1086
+    },
+    {
+      "path": "licenses/python-registry-Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "25c083c38de6d62d5ecf3ebb1c071978b5f5d7883f995afebd50dd22dd103475",
+      "bytes": 735
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "8bf0543e181a4e53135e4ea8dcb0acdd22a116c5c250b6ccf82cc036cfd805cd",
+      "bytes": 99
+    },
+    {
+      "path": "scripts/differential_check.py",
+      "sha256": "4b1aac8009f640a5b5f684b532b6d1f352d5f0099c6da602b862118d1e7a6bc3",
+      "bytes": 4352
+    },
+    {
+      "path": "scripts/installed_cli_check.py",
+      "sha256": "7f0c835bb12f2b0381d12bb5700c24f919845c5993732c511d4c835a4c5e241a",
+      "bytes": 2389
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "sha256": "c0e81c0a1c53730816074de2af2dc9f533b79eb66b359502091e833456fa57c3",
+      "bytes": 4910
+    },
+    {
+      "path": "src/registry_hive_review/__init__.py",
+      "sha256": "c3eea80c84a5ae442ce5e2cb7b74d4197eac6a05683dd13d0b1a16fa4457cffc",
+      "bytes": 131
+    },
+    {
+      "path": "src/registry_hive_review/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/registry_hive_review/cli.py",
+      "sha256": "510bcb4623eaae48d0af029c33b6bfeff07395f0532bb2ebd60e8f7f99892a63",
+      "bytes": 1776
+    },
+    {
+      "path": "src/registry_hive_review/files.py",
+      "sha256": "46ed90f0de90ae16738bfbc00e3a38f7c19838947fb88851d7479e98649e1bd2",
+      "bytes": 2709
+    },
+    {
+      "path": "src/registry_hive_review/hive.py",
+      "sha256": "99029e81e3cee2d1c214a47ff6111b00ed11c59c76cbc344cac1af7adc0979d3",
+      "bytes": 24082
+    },
+    {
+      "path": "src/registry_hive_review/model.py",
+      "sha256": "cd293287900a1ab2bdfaf37d7d430fee784bb60aea02d708e6ae5c232c94e9f1",
+      "bytes": 1667
+    },
+    {
+      "path": "src/registry_hive_review/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/registry_hive_review/selection.py",
+      "sha256": "d344336dfd5fbf99a7efaea308800c682d2f456df687cd040b69fbe50ab8090b",
+      "bytes": 2552
+    },
+    {
+      "path": "src/registry_hive_review/values.py",
+      "sha256": "ba363d2fc84a5f9b869197aeff0eb0189d8f266aee761970f9d6817df9e25c82",
+      "bytes": 1679
+    },
+    {
+      "path": "tests/fixtures.py",
+      "sha256": "d8082eb447151a726855501ec82342e2e55a9fbe655e59ff25b0a9adb41bd3f2",
+      "bytes": 7852
+    },
+    {
+      "path": "tests/test_files_cli.py",
+      "sha256": "ffb8cde1cf7c7d06cd4f87088fc043b270fd29a104d4242a4cd08bd3e23ae606",
+      "bytes": 7480
+    },
+    {
+      "path": "tests/test_hive.py",
+      "sha256": "108422c8628cc902565cb0a8e5b5eeac79e71895efe47afb5098ab66fa78f09f",
+      "bytes": 25927
+    },
+    {
+      "path": "tests/test_safe_read_capabilities.py",
+      "sha256": "a8491812e87153184fc2e05c34f91ce1b4da0ca8a1b0ccaa6c758f1bb6e38c69",
+      "bytes": 6410
+    }
+  ]
+}

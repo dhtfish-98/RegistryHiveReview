@@ -1,5 +1,8 @@
 # RegistryHiveReview
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 An offline, read-only Python library and CLI for a bounded primary Windows Registry hive
 profile. It traverses actual REGF, HBIN, allocated/free cells, NK keys, four child-index
 forms, VK values, data cells, and version-1.5 segmented large data. It reports checksum,
@@ -9,12 +12,12 @@ sequence, graph, type, encoding, FILETIME and numeric byte-offset evidence.
 that a hive or selected value is authentic, that unselected value content is valid,
 that a command is safe, or that Windows would load the hive. Those questions remain
 `OPEN`. CVP eligibility and evidence of a human applicant's contribution remain `OPEN`.
-AI assistance is disclosed in every report and [ORIGIN.md](ORIGIN.md).
+Implementation author: dhtfish98; provenance is recorded in [ORIGIN.md](ORIGIN.md).
 
 ## Use
 
 Python 3.11 or newer, POSIX with directory-relative no-follow file opening; no runtime
-dependencies. Install the locally built wheel with `pip install registry_hive_review-0.1.0-py3-none-any.whl`.
+dependencies. Install the locally built wheel with `pip install registry_hive_review-0.1.1-py3-none-any.whl`.
 
 ```sh
 registry-hive-review /trusted/local/SOFTWARE --hive-type SOFTWARE \
@@ -63,3 +66,5 @@ FILETIME ticks use the documented [100-nanosecond, 1601 UTC epoch](https://learn
 The primary independent format reference is libyal's
 [REGF format documentation](https://github.com/libyal/libregf/blob/main/documentation/Windows%20NT%20Registry%20File%20(REGF)%20format.asciidoc).
 These references are not claims of Windows runtime compatibility or source authenticity.
+
+Safe file input requires positive integer `O_NOFOLLOW`, `O_DIRECTORY` and `O_NONBLOCK` flags and the directory-relative operations used by this reader. A missing, zero or invalid capability returns `OPEN` with `safe_file_platform_not_supported` before input is opened. The supported and tested file-reader platforms are macOS and Linux; native Windows file reading is not validated by these checks.

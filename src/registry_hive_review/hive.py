@@ -493,7 +493,7 @@ def review(data, hive_type=None, selections=(), reveal=False, limits=DEFAULT_LIM
         "security_descriptor_semantics": "OPEN",
         "transaction_recovery": "NOT_IMPLEMENTED",
         "cvp_eligibility": "OPEN",
-        "ai_assisted": True,
+        "implementation_author": "dhtfish98",
     }
     hive = None
     report_limit = DEFAULT_LIMITS.report_bytes
@@ -545,6 +545,6 @@ def review(data, hive_type=None, selections=(), reveal=False, limits=DEFAULT_LIM
             "evidence": [],
             "hive_identity": "OPEN",
             "cvp_eligibility": "OPEN",
-            "ai_assisted": True,
+            "implementation_author": "dhtfish98",
         }
     return result

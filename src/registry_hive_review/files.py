@@ -7,6 +7,7 @@ from .model import DEFAULT_LIMITS, ParseIssue
 
 
 def read_local(path):
+    dir_fd_support = getattr(os, "supports_dir_fd", None)
     if type(path) is not str or "\0" in path:
         raise ParseIssue("file_path_input")
     try:
@@ -15,9 +16,12 @@ def read_local(path):
     except UnicodeError:
         raise ParseIssue("file_path_input") from None
     if (
-        not hasattr(os, "O_NOFOLLOW")
-        or not hasattr(os, "O_DIRECTORY")
-        or os.open not in os.supports_dir_fd
+        any(
+            type(getattr(os, name, None)) is not int or getattr(os, name, None) <= 0
+            for name in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
+        )
+        or type(dir_fd_support) not in (set, frozenset)
+        or os.open not in dir_fd_support
     ):
         raise ParseIssue("safe_file_platform_not_supported")
     absolute = path.startswith("/")

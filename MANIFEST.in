@@ -10,3 +10,5 @@ prune dist
 prune build
 prune .git
 prune .ruff_cache
+
+include SOURCE_MANIFEST.json ATTRIBUTION_UPDATE.json

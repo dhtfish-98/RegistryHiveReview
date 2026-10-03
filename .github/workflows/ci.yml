@@ -25,7 +25,7 @@ jobs:
       - name: Independent offline consumer tests and CLI
         run: |
           python -m venv .install-check
-          .install-check/bin/python -m pip install --no-index --no-deps dist/registry_hive_review-0.1.0-py3-none-any.whl
+          .install-check/bin/python -m pip install --no-index --no-deps dist/registry_hive_review-0.1.1-py3-none-any.whl
           .install-check/bin/python -m pip check
           install_python="$PWD/.install-check/bin/python"
           repo_root="$PWD"

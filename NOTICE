@@ -1,4 +1,4 @@
-RegistryHiveReview is a new AI-assisted implementation, copyright 2026 contributors,
+RegistryHiveReview is a new implementation, copyright 2026 dhtfish98,
 licensed under Apache-2.0. The implementation does not import or ship python-registry.
 
 Design reference: williballenthin/python-registry at

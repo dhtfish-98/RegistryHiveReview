@@ -1,5 +1,8 @@
 # Origin and contribution
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 The selected design source is [williballenthin/python-registry](https://github.com/williballenthin/python-registry/tree/e649a288b8c62e341eee4a6b95a1337a41c1c163),
 commit `e649a288b8c62e341eee4a6b95a1337a41c1c163`. Full selected-file review covers
 Registry.py, RegistryParse.py, SettingsParse.py, package initialization, build metadata,
@@ -25,6 +28,6 @@ complete independent SettingsParse MIT header is retained as well, even though
 AppContainer composite types are excluded. libyal's format documentation is a
 reference; its prose and implementation are not redistributed.
 
-Implementation, documentation and validation were created with AI assistance.
+New implementation author: dhtfish98.
 Human originality, usage history, legitimate research work, safeguards-impact
 records, CVP eligibility and approval must be established separately and remain OPEN.

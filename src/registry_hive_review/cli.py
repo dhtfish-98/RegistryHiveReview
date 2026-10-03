@@ -41,7 +41,7 @@ def main(argv=None):
             "evidence": [],
             "hive_identity": "OPEN",
             "cvp_eligibility": "OPEN",
-            "ai_assisted": True,
+            "implementation_author": "dhtfish98",
         }
     print(json.dumps(result, ensure_ascii=True, sort_keys=True, separators=(",", ":")))
     return 0 if result["status"] == "PASS" else 2
