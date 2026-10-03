@@ -1,13 +1,14 @@
 {
   "schema": 1,
   "project": "RegistryHiveReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "implementation_author": "dhtfish98",
   "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
   "files": [
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "0859da9d60541d12dab2c8440b49d0fe8b34a3e95ea4b0a8067f3fd7dadcff7f",
+      "sha256": "cb720eb7f5d708262b901edcbe38cc5f8233ec2fd7450864ef145be3ad6b6bbb",
       "bytes": 1598
     },
     {
@@ -17,8 +18,8 @@
     },
     {
       "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "519db1b4554f3dc573a3bad8c31272a44a4cf5f9937ed0b5b795cf6f53638390",
-      "bytes": 937
+      "sha256": "f2c57a0925049bb1bb6f3655abd01d367a13299f0ec503c49167b673ceb75841",
+      "bytes": 1053
     },
     {
       "path": "DEFENSIVE_SCOPE.md",
@@ -31,23 +32,28 @@
       "bytes": 11358
     },
     {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "710ef8a8d50c92c523ee5eeaf52b5d72a4ec1ec3f9129eeb31cb654994bf864c",
+      "bytes": 840
+    },
+    {
       "path": "MANIFEST.in",
-      "sha256": "e8692eb8c8007ab7a085e95d2cc8921c2f41721d91cd4099ffa74e95078fe88e",
-      "bytes": 432
+      "sha256": "931bdbc8c136d8d6c8259189716d67938bd9c2dad5e1bbf11af2bda233cfded4",
+      "bytes": 429
     },
     {
       "path": "NOTICE",
-      "sha256": "15b6ebdc48ca579a28d0c9f121e294a2431f59b0995920d9fc814a0c155127cb",
-      "bytes": 985
+      "sha256": "0b622195ae739264e33ef10c8613adebf97c84d3d8eb76364888e12bcdf9e94a",
+      "bytes": 475
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "26072386c9824d28b73dece3d4414ca2f02671ffab3036c702356960b3e16395",
-      "bytes": 2153
+      "sha256": "784f5967ebd47d3c9db9033b751081decd645dce7f8565d399134aaae2a678c0",
+      "bytes": 2163
     },
     {
       "path": "README.md",
-      "sha256": "eef0709d7f6996fdb081197f2b515527f4747a69be577701f4837e439844ce78",
+      "sha256": "33d35f52e7fc7d546ec0ceb17abc4693ed23b5ff56a77602544017fef18d6645",
       "bytes": 4315
     },
     {
@@ -57,23 +63,13 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "5e293e1ad032148419339c7733013b1e93b923609555d17471adb8245f2a0449",
-      "bytes": 5112
-    },
-    {
-      "path": "licenses/SettingsParse-MIT.txt",
-      "sha256": "aee9726e3e1f99cad659c6216c0e8eaf466a837f925f78d682d8ed9929bef8e8",
-      "bytes": 1086
-    },
-    {
-      "path": "licenses/python-registry-Apache-2.0.txt",
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "sha256": "392fa8cca608c60da1267e49fcb8a71e28709bf5465dc4a54954203b37e62ac2",
+      "bytes": 6211
     },
     {
       "path": "pyproject.toml",
-      "sha256": "25c083c38de6d62d5ecf3ebb1c071978b5f5d7883f995afebd50dd22dd103475",
-      "bytes": 735
+      "sha256": "2c0710c7567e2d433ebc371f38db23af3abad16c822ad2fa476691c9afeb6442",
+      "bytes": 717
     },
     {
       "path": "requirements-dev.txt",
@@ -97,7 +93,7 @@
     },
     {
       "path": "src/registry_hive_review/__init__.py",
-      "sha256": "c3eea80c84a5ae442ce5e2cb7b74d4197eac6a05683dd13d0b1a16fa4457cffc",
+      "sha256": "71d79dd81f14edae8a84fc4da23c40caefc4a3f706b02ef02a664557a2955019",
       "bytes": 131
     },
     {

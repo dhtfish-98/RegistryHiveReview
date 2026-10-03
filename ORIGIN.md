@@ -1,6 +1,6 @@
 # Origin and contribution
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 The selected design source is [williballenthin/python-registry](https://github.com/williballenthin/python-registry/tree/e649a288b8c62e341eee4a6b95a1337a41c1c163),
@@ -23,9 +23,9 @@ and AppContainer decoding, and separate recovery paths. Those behaviors are not
 carried into this project. New strict checks are a finite defensive profile, and
 profile refusal does not by itself prove a Windows hive is corrupt or malicious.
 
-The original Apache-2.0 text and its named copyright notices are retained. The
-complete independent SettingsParse MIT header is retained as well, even though
-AppContainer composite types are excluded. libyal's format documentation is a
+The original parser and SettingsParse are design references. No corresponding
+implementation or sample is bundled; AppContainer composite types are excluded.
+Their separate reference license copies are omitted. libyal's format documentation is a
 reference; its prose and implementation are not redistributed.
 
 New implementation author: dhtfish98.
