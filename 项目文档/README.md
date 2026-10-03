@@ -1,6 +1,8 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # RegistryHiveReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 An offline, read-only Python library and CLI for a bounded primary Windows Registry hive
@@ -12,7 +14,7 @@ sequence, graph, type, encoding, FILETIME and numeric byte-offset evidence.
 that a hive or selected value is authentic, that unselected value content is valid,
 that a command is safe, or that Windows would load the hive. Those questions remain
 `OPEN`. CVP eligibility and evidence of a human applicant's contribution remain `OPEN`.
-Implementation author: dhtfish98; provenance is recorded in [ORIGIN.md](ORIGIN.md).
+Implementation author: dhtfish98; provenance is recorded in [ORIGIN.md](<ORIGIN.md>).
 
 ## Use
 
@@ -56,9 +58,9 @@ wildcards, arbitrary paths or full-tree dumps. Reports echo only validated calle
 selections and numeric source locations. Revealed strings can contain private data;
 only harmless synthetic examples are committed.
 
-See [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md) for the precise parsing profile, input
-and privacy limits, [VALIDATION.md](VALIDATION.md) for reproducible checks, and
-[SOURCE_AUDIT.json](SOURCE_AUDIT.json) for fixed-source identities.
+See [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>) for the precise parsing profile, input
+and privacy limits, [VALIDATION.md](<VALIDATION.md>) for reproducible checks, and
+[SOURCE_AUDIT.json](<../SOURCE_AUDIT.json>) for fixed-source identities.
 
 Type and string-termination rules reference Microsoft's
 [Registry value types](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-value-types).

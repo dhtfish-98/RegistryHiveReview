@@ -6,3 +6,10 @@ validation-local/
 build/
 dist/
 .install-check/
+
+# All generated build outputs and staging are local.
+!/Build/
+/Build/*
+!/Build/.gitignore
+__pycache__/
+*.py[cod]
