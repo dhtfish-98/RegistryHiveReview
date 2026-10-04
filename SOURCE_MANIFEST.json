@@ -17,17 +17,17 @@
       "bytes": 209
     },
     {
-      "path": "ATTRIBUTION_UPDATE.json",
+      "path": "项目文档/ATTRIBUTION_UPDATE.json",
       "sha256": "f2c57a0925049bb1bb6f3655abd01d367a13299f0ec503c49167b673ceb75841",
       "bytes": 1053
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "036d2bf1bff65da57e41e12a253be59f555294bbe24b057f23fc77037b5cddbf",
-      "bytes": 1024
+      "sha256": "efe87ad766beb8867e4e76cb8c50b1407c6dee37ed4f40cca1cdb01eb93a1001",
+      "bytes": 1050
     },
     {
-      "path": "SOURCE_AUDIT.json",
+      "path": "项目文档/SOURCE_AUDIT.json",
       "sha256": "296256132a445b3cecf941eecee2f51952b1f80bd4cfe2b10018183216ed4333",
       "bytes": 4015
     },
@@ -43,8 +43,8 @@
     },
     {
       "path": "scripts/differential_check.py",
-      "sha256": "4b1aac8009f640a5b5f684b532b6d1f352d5f0099c6da602b862118d1e7a6bc3",
-      "bytes": 4352
+      "sha256": "b6ab06943b0338c7d096b792ae6d9a15a073a8d2a74a6b470a6141c511055ec7",
+      "bytes": 4365
     },
     {
       "path": "scripts/installed_cli_check.py",
@@ -127,7 +127,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "57371828948bec6b912a365c7b415e1547001c0ce849b993ec627e2fcb26236b",
+      "sha256": "2e5b71590c7a5546143e0bde99da74d1e99fa9b0cec3c401ba3352cee03fbb2d",
       "bytes": 1464,
       "path": "构建配置.json"
     },
@@ -158,8 +158,8 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "d74fbb8eea3c33f4e6e01269407157b6ec1c7e922a5c6e36e780a32199393a57",
-      "bytes": 4681
+      "sha256": "4faef9339d135cf9d49df3038ad1293f68620181931d45a4579e6577802c6ea9",
+      "bytes": 4678
     },
     {
       "path": "项目文档/VALIDATION.md",

@@ -60,7 +60,7 @@ only harmless synthetic examples are committed.
 
 See [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>) for the precise parsing profile, input
 and privacy limits, [VALIDATION.md](<VALIDATION.md>) for reproducible checks, and
-[SOURCE_AUDIT.json](<../SOURCE_AUDIT.json>) for fixed-source identities.
+[SOURCE_AUDIT.json](<SOURCE_AUDIT.json>) for fixed-source identities.
 
 Type and string-termination rules reference Microsoft's
 [Registry value types](https://learn.microsoft.com/en-us/windows/win32/sysinfo/registry-value-types).
