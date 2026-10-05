@@ -1,6 +1,6 @@
 # Origin and contribution
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 The selected design source is [williballenthin/python-registry](https://github.com/williballenthin/python-registry/tree/e649a288b8c62e341eee4a6b95a1337a41c1c163),

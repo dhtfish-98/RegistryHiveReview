@@ -2,7 +2,7 @@
 
 # RegistryHiveReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 An offline, read-only Python library and CLI for a bounded primary Windows Registry hive
@@ -19,7 +19,7 @@ Implementation author: dhtfish98; provenance is recorded in [ORIGIN.md](<ORIGIN.
 ## Use
 
 Python 3.11 or newer, POSIX with directory-relative no-follow file opening; no runtime
-dependencies. Install the locally built wheel with `pip install registry_hive_review-0.1.2-py3-none-any.whl`.
+dependencies. Install the locally built wheel with `pip install registry_hive_review-0.1.3-py3-none-any.whl`.
 
 ```sh
 registry-hive-review /trusted/local/SOFTWARE --hive-type SOFTWARE \
